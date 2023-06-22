@@ -4,12 +4,11 @@ import{
     assertArrayIncludes,
 } from "http://deno.land/std/testing/asserts.ts";
 
-let aluno = 'Crovis Jose'
+let aluno = 'Crovis Joss'
 let professores = ['Jose','Lais','Davi','Bruno Aparecido Cano']
 let numeros = [11, 24,69]
 
 Deno.test("Teste de assertions (API)", () => {
-    assertEquals(aluno, "Crovis Jose");
     assertStringIncludes(aluno, "Jose");
 })
 
