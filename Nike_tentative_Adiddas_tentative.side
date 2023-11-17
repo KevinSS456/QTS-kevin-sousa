@@ -1,0 +1,421 @@
+{
+  "id": "bd7c4ba3-f179-4ab3-9d32-c9705095dc9e",
+  "version": "2.0",
+  "name": "Nike_tentative",
+  "url": "https://www.adidas.com.br/?cm_mmc=AdieSEM_Google-_-Trademark-adidas-General-B-Exact-_-General-Site-X-br-_-adidas+br-_-&-_-ds_kid=43700074669460644-_-&-_-ds_agid=58700008219248998-_-&-_-dv:eCom&cm_mmca1=BR&cm_mmc2=&gad_source=1&gclid=CjwKCAiAu9yqBhBmEiwAHTx5p1Q_0zJWUFkrC79zrk5Sy23m0MJtrz-pv6sbpruZ9sbuViXTOhOSBBoC-zIQAvD_BwE&gclsrc=aw.ds",
+  "tests": [{
+    "id": "a308c29c-27be-490b-8eae-7329c29dd12e",
+    "name": "Test_one",
+    "commands": [{
+      "id": "3c14442a-7a10-4cc7-ba27-591b081be8e1",
+      "comment": "",
+      "command": "open",
+      "target": "/?gad_source=1&gclid=CjwKCAiAu9yqBhBmEiwAHTx5p31x5Xon1q9-uCy4sVzEKNCEgncFnHmyZBLcjRCN703ENCUJaWPsKBoCUpAQAvD_BwE&utm_referrer=https://www.google.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "eb8bb3e7-dfc6-4b1a-8a4e-883f66c318ad",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x1032",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2f65af66-c8c3-4f77-b970-2367ed5e023e",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1700)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e176bed9-8783-4331-bef5-968b1f36f2d4",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=.SearchBar__StyledSearchBar-sc-flcmqc-0", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//header[@id='navigationHeader']/div/div[2]/div/div/div/div[2]/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ed3ad120-25f4-4fd0-9ac3-4ca7038661eb",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=.hScimd",
+      "targets": [
+        ["css=.hScimd", "css:finder"],
+        ["xpath=//header[@id='navigationHeader']/div/div[2]/div/div/div/div[2]/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aea0c871-84ca-49ac-a0bb-4c8c0084e7fa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.SearchBar__StyledForm-sc-flcmqc-1",
+      "targets": [
+        ["css=.SearchBar__StyledForm-sc-flcmqc-1", "css:finder"],
+        ["xpath=//header[@id='navigationHeader']/div/div[2]/div/div/div/div[2]/form", "xpath:idRelative"],
+        ["xpath=//form", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e6da472b-0839-48cf-be0e-65f03c1869a0",
+      "comment": "",
+      "command": "type",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=.SearchBar__StyledSearchBar-sc-flcmqc-0", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//header[@id='navigationHeader']/div/div[2]/div/div/div/div[2]/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "nike dunk"
+    }, {
+      "id": "46400b75-ffd9-416c-b173-6f317d3afc15",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=.SearchBar__StyledSearchBar-sc-flcmqc-0", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//header[@id='navigationHeader']/div/div[2]/div/div/div/div[2]/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "99475060-8341-4c69-a7a6-acfdd88d2d14",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8dc35513-b7ab-4599-a690-4b5f44574088",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.GridProduct__InView-sc-723cc00-2:nth-child(1) .ProductImage__ProductImageStyled-sc-1a08f717-0",
+      "targets": [
+        ["css=.GridProduct__InView-sc-723cc00-2:nth-child(1) .ProductImage__ProductImageStyled-sc-1a08f717-0", "css:finder"],
+        ["xpath=//img[@alt='Casual']", "xpath:img"],
+        ["xpath=//div[@id='__next']/div[2]/div[2]/div/div/div[4]/div[2]/div/div/div/a/div/span/img", "xpath:idRelative"],
+        ["xpath=//a/div/span/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3f4354b9-451e-458f-8e83-687cbb89b282",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.GridProduct__InView-sc-723cc00-2:nth-child(1) .ProductImage__ProductImageStyled-sc-1a08f717-0",
+      "targets": [
+        ["css=.GridProduct__InView-sc-723cc00-2:nth-child(1) .ProductImage__ProductImageStyled-sc-1a08f717-0", "css:finder"],
+        ["xpath=//img[@alt='Casual']", "xpath:img"],
+        ["xpath=//div[@id='__next']/div[2]/div[2]/div/div/div[4]/div[2]/div/div/div/a/div/span/img", "xpath:idRelative"],
+        ["xpath=//a/div/span/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fff21996-3b1e-427b-8745-0f6a7f8f475c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.ProductCard-styled__ProductCardContainer-sc-756bba1b-5:nth-child(2) .ProductImage__ProductImageStyled-sc-1a08f717-0",
+      "targets": [
+        ["css=.ProductCard-styled__ProductCardContainer-sc-756bba1b-5:nth-child(2) .ProductImage__ProductImageStyled-sc-1a08f717-0", "css:finder"],
+        ["xpath=(//img[@alt='Casual'])[2]", "xpath:img"],
+        ["xpath=//div[@id='__next']/div[2]/div[2]/div/div/div[4]/div[2]/div/div[2]/a/div/span/img", "xpath:idRelative"],
+        ["xpath=//div[2]/a/div/span/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b59b6b93-fcd8-43fa-a585-b71e75a49a12",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.ProductCard-styled__ProductCardContainer-sc-756bba1b-5:nth-child(2) .ProductImage__ProductImageStyled-sc-1a08f717-0",
+      "targets": [
+        ["css=.ProductCard-styled__ProductCardContainer-sc-756bba1b-5:nth-child(2) .ProductImage__ProductImageStyled-sc-1a08f717-0", "css:finder"],
+        ["xpath=(//img[@alt='Casual'])[2]", "xpath:img"],
+        ["xpath=//div[@id='__next']/div[2]/div[2]/div/div/div[4]/div[2]/div/div[2]/a/div/span/img", "xpath:idRelative"],
+        ["xpath=//div[2]/a/div/span/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a373e617-166e-401b-9932-3753d868710c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.GridProduct__InView-sc-723cc00-2:nth-child(1) .ProductImage__ProductImageStyled-sc-1a08f717-0",
+      "targets": [
+        ["css=.GridProduct__InView-sc-723cc00-2:nth-child(1) .ProductImage__ProductImageStyled-sc-1a08f717-0", "css:finder"],
+        ["xpath=//img[@alt='Casual']", "xpath:img"],
+        ["xpath=//div[@id='__next']/div[2]/div[2]/div/div/div[4]/div[2]/div/div/div/a/div/span/img", "xpath:idRelative"],
+        ["xpath=//a/div/span/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "539f1065-239e-4251-aeeb-482da6324077",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,100)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "463de4de-b35b-4572-badb-882a70bbd1a8",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,116)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "49985d32-535a-40cc-9d3c-3d8064bb9d50",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,635)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4f840fdd-13f4-4828-92da-6e05906b1b8f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.SizeSelector-styled__Grid-sc-14a71e11-0",
+      "targets": [
+        ["css=.SizeSelector-styled__Grid-sc-14a71e11-0", "css:finder"],
+        ["xpath=//div[@id='__next']/div[2]/div[2]/div/main/div[3]/div[4]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div[4]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "998741b4-fc3e-4422-b4a9-24c71bdee5e1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.TextBox__TextBoxContainer-sc-4fb91f0d-0:nth-child(14) .TextBox__VisuallyHiddenInput-sc-4fb91f0d-2",
+      "targets": [
+        ["css=.TextBox__TextBoxContainer-sc-4fb91f0d-0:nth-child(14) .TextBox__VisuallyHiddenInput-sc-4fb91f0d-2", "css:finder"],
+        ["xpath=(//input[@name='size'])[14]", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div[2]/div[2]/div/main/div[3]/div[4]/div/div[2]/span[14]/label/input", "xpath:idRelative"],
+        ["xpath=//span[14]/label/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "2462627e-f7bf-4ff0-86b2-563d6d87189b",
+    "name": "Teste_two_error",
+    "commands": [{
+      "id": "73289a62-2ba7-47b8-8bf7-90e941ccf947",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.adidas.com.br/?cm_mmc=AdieSEM_Google-_-Trademark-adidas-General-B-Exact-_-General-Site-X-br-_-adidas+br-_-&-_-ds_kid=43700074669460644-_-&-_-ds_agid=58700008219248998-_-&-_-dv:eCom&cm_mmca1=BR&cm_mmc2=&gad_source=1&gclid=CjwKCAiAu9yqBhBmEiwAHTx5p1Q_0zJWUFkrC79zrk5Sy23m0MJtrz-pv6sbpruZ9sbuViXTOhOSBBoC-zIQAvD_BwE&gclsrc=aw.ds",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c5cb0e47-ded8-4690-a71c-d927dc423272",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x1032",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8a2bc65b-8dab-47b8-a7e1-faf5a40ddf13",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.\\_mobile_search_toggle_4re0c_1",
+      "targets": [
+        ["css=.\\_mobile_search_toggle_4re0c_1", "css:finder"],
+        ["xpath=//div[@id='__next']/div[2]/div[2]/div/header/div[2]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ad005eb5-11f0-4f0d-8e32-d009a0f87f26",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.\\_mobile_search_toggle_4re0c_1",
+      "targets": [
+        ["css=.\\_mobile_search_toggle_4re0c_1", "css:finder"],
+        ["xpath=//div[@id='__next']/div[2]/div[2]/div/header/div[2]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "92311dcc-0651-470f-9190-90f2d24b5891",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_mobile_search_toggle_4re0c_1 > .gl-icon__wrapper",
+      "targets": [
+        ["css=.\\_mobile_search_toggle_4re0c_1 > .gl-icon__wrapper", "css:finder"],
+        ["xpath=//div[@id='__next']/div[2]/div[2]/div/header/div[2]/div/div[2]/button/span", "xpath:idRelative"],
+        ["xpath=//div[2]/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fb2a7075-f005-41f7-b043-8ac706727ec6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_input_1rlri_35",
+      "targets": [
+        ["css=.\\_input_1rlri_35", "css:finder"],
+        ["xpath=//div[@id='__next']/div[2]/div[2]/div/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0c0d1456-dbbe-45a6-8220-c54de8336712",
+      "comment": "",
+      "command": "type",
+      "target": "css=.\\_input_1rlri_35",
+      "targets": [
+        ["css=.\\_input_1rlri_35", "css:finder"],
+        ["xpath=//div[@id='__next']/div[2]/div[2]/div/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "tenis"
+    }, {
+      "id": "3fac49a0-f03a-451d-bbc5-fb46de1ee52a",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.\\_input_1rlri_35",
+      "targets": [
+        ["css=.\\_input_1rlri_35", "css:finder"],
+        ["xpath=//div[@id='__next']/div[2]/div[2]/div/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "d09fc72c-df0a-4d78-9e05-8af2ab491060",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,300)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c466c082-49d9-4158-9b2f-57ea7027d71f",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,301)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5efb0d2d-6a54-4f56-a450-5cd5ee50478a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.grid-item:nth-child(8) .product-card-image:nth-child(1)",
+      "targets": [
+        ["css=.grid-item:nth-child(8) .product-card-image:nth-child(1)", "css:finder"],
+        ["xpath=//img[@alt='Tênis Superstar Branco Originals']", "xpath:img"],
+        ["xpath=//div[@id='main-content']/div/div[3]/div/div/div/div/div/div[8]/div/div/div/div/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[8]/div/div/div/div/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ce78be21-b7df-4e12-89a4-849558192552",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.sheet___2Zvfp",
+      "targets": [
+        ["css=.sheet___2Zvfp", "css:finder"],
+        ["xpath=//div[@id='app']/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "166ee042-cff3-4c4e-94e5-7db2bd46390c",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.sheet___2Zvfp",
+      "targets": [
+        ["css=.sheet___2Zvfp", "css:finder"],
+        ["xpath=//div[@id='app']/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8b435715-89fe-4d94-97ab-049c68315e0b",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.sheet___2Zvfp",
+      "targets": [
+        ["css=.sheet___2Zvfp", "css:finder"],
+        ["xpath=//div[@id='app']/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "71353f67-3c68-44c7-85cf-c4f3539dbbe9",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.sheet___2Zvfp",
+      "targets": [
+        ["css=.sheet___2Zvfp", "css:finder"],
+        ["xpath=//div[@id='app']/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "85c97f4d-88e2-4a67-ab0c-dbcf9a833bc3",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.sheet___2Zvfp",
+      "targets": [
+        ["css=.sheet___2Zvfp", "css:finder"],
+        ["xpath=//div[@id='app']/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c7b6fbb5-f44d-49c6-a0b7-bb43e5b830f9",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2d1e6b51-5f78-42d3-b331-0a5bed8fe85f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.gl-modal__overlay",
+      "targets": [
+        ["css=.gl-modal__overlay", "css:finder"],
+        ["xpath=(//button[@type='button'])[12]", "xpath:attributes"],
+        ["xpath=//div[@id='account-portal-modal']/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a422d5c0-435e-4d6d-ba04-d2d77e8a7e0e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.gl-modal__overlay",
+      "targets": [
+        ["css=.gl-modal__overlay", "css:finder"],
+        ["xpath=(//button[@type='button'])[12]", "xpath:attributes"],
+        ["xpath=//div[@id='account-portal-modal']/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "de63be62-9fdb-4c4b-b088-adbe5f02cf2c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.view___34E7_:nth-child(2) .pinch-zoom___1HmsC",
+      "targets": [
+        ["css=.view___34E7_:nth-child(2) .pinch-zoom___1HmsC", "css:finder"],
+        ["xpath=//div[@id='navigation-target-gallery']/section/div/div/div/div[2]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div/div[2]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "c07ec6ca-b71b-40a0-8d86-5105404a87fe",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["a308c29c-27be-490b-8eae-7329c29dd12e"]
+  }],
+  "urls": ["https://www.nike.com.br/", "https://www.magazineluiza.com.br/", "https://www.adidas.com.br/?cm_mmc=AdieSEM_Google-_-Trademark-adidas-General-B-Exact-_-General-Site-X-br-_-adidas+br-_-&-_-ds_kid=43700074669460644-_-&-_-ds_agid=58700008219248998-_-&-_-dv:eCom&cm_mmca1=BR&cm_mmc2=&gad_source=1&gclid=CjwKCAiAu9yqBhBmEiwAHTx5p1Q_0zJWUFkrC79zrk5Sy23m0MJtrz-pv6sbpruZ9sbuViXTOhOSBBoC-zIQAvD_BwE&gclsrc=aw.ds"],
+  "plugins": []
+}
